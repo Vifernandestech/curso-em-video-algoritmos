@@ -1,0 +1,33 @@
+Algoritmo "Média_Senac"
+
+Var
+   Primeira_nota, Segunda_nota, Terceira_nota, Media_notas: real
+   
+Inicio
+      Escreval("---------------------------")
+      Escreval("---Senac São Paulo---")
+      Escreval("---------------------------")
+      Escreva("Primeira nota: ")
+      Leia(Primeira_nota)
+      Escreva("Segunda nota: ")
+      Leia(Segunda_nota)
+      Escreva("Terceira nota: ")
+      Leia(Terceira_nota)
+      Media_notas <- (Primeira_nota + Segunda_nota + Terceira_nota) / 3
+      Se (Media_notas >= 7.5) então
+         Escreval("---Média notas - Status---")
+         Escreval("Média: ", Media_notas:3:1)
+         Escreval("Status: Aprovado")
+      Senão
+           Se (Media_notas >= 5) e (Media_notas < 7) então
+            Escreval("---Média notas - Status---")
+            Escreval("Média: ", Media_notas:3:1)
+            Escreval("Status: Recuperação necessária")
+           Senão
+            Escreval("---Média notas - Status---")
+            Escreval("Média: ", Media_notas:3:1)
+            Escreval("Status: Reprovado")
+           FimSe
+      FimSe
+      
+Fimalgoritmo
