@@ -1,0 +1,12 @@
+Algoritmo "Creuza_02"
+
+Var
+   reais, dolares: real
+
+Inicio
+      Escreva("Quantos reais eu tenho?: ")
+      Leia (reais)
+      dolares <- reais/6.19
+      Escreva("Posso ter USS", dolares)
+
+Fimalgoritmo
