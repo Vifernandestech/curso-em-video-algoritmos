@@ -1,0 +1,37 @@
+Algoritmo "Cálculo_de_Gols"
+
+Var
+   primeiro_time, segundo_time: caractere
+   gols_primeiro, gols_segundo, Diferenca: Inteiro
+   Status: Caractere
+
+
+Inicio
+      Escreva("Digite o primeiro time: ")
+      Leia(primeiro_time)
+      Escreva("Digite o segundo time: ")
+      Leia(segundo_time)
+      Escreval ("-----------------------")
+      Escreval ("Placar jogo ", primeiro_time, " X ", segundo_time)
+      Escreva ("Quantos gols ", primeiro_time, " fez?: ")
+      Leia(gols_primeiro)
+      Escreva ("Quantos gols ", segundo_time, " fez?: ")
+      Leia(gols_segundo)
+      Diferenca <- gols_primeiro - gols_segundo
+      Escolha Diferenca
+              Caso 0
+                   Escreval ("-----------------------------")
+                   Escreval ("DIFERENÇA PLACAR: ", Diferenca)
+                   Escreval ("STATUS: EMPATE")
+              Caso 1, 2, 3
+                   Escreval ("-----------------------------")
+                   Escreval ("DIFERENÇA PLACAR: ", Diferenca)
+                   Escreval ("STATUS: Partida NORMAL")
+              Caso 4, 5, 6, 7, 8, 9, 10
+                   Escreval ("-----------------------------")
+                   Escreval ("DIFERENÇA PLACAR: ", Diferenca)
+                   Escreval ("STATUS: GOLEADA")
+      FimEscolha
+
+            
+Fimalgoritmo
