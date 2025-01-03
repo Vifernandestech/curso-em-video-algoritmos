@@ -1,0 +1,25 @@
+Algoritmo "Departamento_De_Trânsito"
+
+Var
+   Ano_atual, Ano_nascimento, Idade: Inteiro
+
+Inicio
+      Escreval("--------------------------------")
+      Escreval("---DEPARTAMENTO DE TRÂNSITO---")
+      Escreval("--------------------------------")
+      Escreva("Qual ano atual? (yyyy)")
+      Leia(Ano_atual)
+      Escreva("Qual seu ano de nascimento? (yyyy)")
+      Leia(Ano_nascimento)
+      Idade <- (Ano_atual - Ano_nascimento)
+      Se (Idade >= 18) então
+         Escreval("---STATUS---")
+         Escreval("Idade: ", Idade)
+         Escreval("Você está apto a tirar a habilitação")
+      Senão
+           Escreval("---STATUS---")
+           Escreval("Idade: ", Idade)
+           Escreval("Você NÃO está apto a tirar a habilitação")
+      FimSe
+            
+Fimalgoritmo
