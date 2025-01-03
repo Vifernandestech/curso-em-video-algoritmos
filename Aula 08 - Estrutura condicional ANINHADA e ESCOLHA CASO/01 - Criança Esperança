@@ -1,0 +1,40 @@
+Algoritmo "CriançaEsperança"
+
+Var
+Doacao, Valor: inteiro
+
+Inicio
+      Escreval ("-----------------------------")
+      Escreval ("------Criança Esperança------")
+      Escreval ("-----------------------------")
+      Escreval ("---Muito obrigado por doar---")
+      Escreval ("Digite [1] para doar 10R$: ")
+      Escreval ("Digite [2] para doar 25R$: ")
+      Escreval ("Digite [3] para doar 50R$: ")
+      Escreval ("Digite [4] para doar outro valor: ")
+      Escreval ("Digita [5] para cancelar: ")
+      Leia (Doacao)
+      Escolha Doacao
+              Caso 1
+              Valor <- 10
+              Caso 2
+              Valor <- 25
+              Caso 3
+              Valor <- 50
+              Caso 4
+                   Escreval("Digite o valor desejado: ")
+                   Leia(Valor)
+              Caso 5
+              Valor <- 0
+      FimEscolha
+      Se Valor = 0 então
+         Escreval ("Que pena! Doe quando puder, sua ajuda salvará vidas!")
+      Senão
+           Escreval ("-----------------------------")
+           Escreval ("------Criança Esperança------")
+           Escreval ("-----------------------------")
+           Escreval ("Sua doação foi de: ", Valor)
+           Escreval ("------Obrigado por doar------")
+      FimSe
+      
+Fimalgoritmo
