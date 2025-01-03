@@ -47,7 +47,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 🛠️ **Ferramentas Mais Utilizadas**
-- **[Visualg](http://visualg3.com.br/)**: Ambiente para desenvolvimento de algoritmos em pseudocódigo.
+- **[Visualg](https://sourceforge.net/projects/visualg30/)**: Ambiente para desenvolvimento de algoritmos em pseudocódigo.
 - **GitHub**: Repositório para versionamento e compartilhamento de código.
 
 ---
