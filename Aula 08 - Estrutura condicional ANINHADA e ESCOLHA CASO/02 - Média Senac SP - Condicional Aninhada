@@ -1,0 +1,59 @@
+Algoritmo "Média_SenacSP"
+
+Var
+   nota1, nota2, Media: real
+
+Inicio
+      Escreval("-----------------")
+      Escreval("-QUAL SUA MÉDIA?-")
+      Escreval("-----------------")
+      Escreva("Digite sua primeira nota: ")
+      Leia(nota1)
+      Escreva("Digite sua segunda nota: ")
+      Leia(nota2)
+      Media <- (nota1 + nota2)/ 2
+      Se (Media >= 9) e (Media <= 10) então
+         Escreval("-----------------")
+         Escreval("MÉDIA FINAL: ", Media)
+         Escreval ("APROVEITAMENTO: A")
+         Escreval("-----------------")
+      Senão
+           Se (Media >= 8) e (Media <= 8.9)então
+              Escreval("-----------------")
+              Escreval("MÉDIA FINAL: ", Media)
+              Escreval ("APROVEITAMENTO: B")
+              Escreval("-----------------")
+           Senão
+                Se (Media >= 7) e (Media <= 7.9)então
+                   Escreval("-----------------")
+                   Escreval("MÉDIA FINAL: ", Media)
+                   Escreval ("APROVEITAMENTO: C")
+                   Escreval("-----------------")
+                Senão
+                     Se (Media >= 6) e (Media <= 6.9) então
+                        Escreval("-----------------")
+                        Escreval("MÉDIA FINAL: ", Media)
+                        Escreval ("APROVEITAMENTO: D")
+                        Escreval("-----------------")
+                     Senão
+                          Se (Media >= 5) e (Media <= 5.9)então
+                             Escreval("--------------------------------")
+                             Escreval("MÉDIA FINAL: ", Media)
+                             Escreval ("APROVEITAMENTO: E - RECUPERAÇÃO")
+                             Escreval("--------------------------------")
+                          Senão
+                               Se (Media < 5)então
+                                  Escreval("------------------------------")
+                                  Escreval("MÉDIA FINAL: ", Media)
+                                  Escreval ("APROVEITAMENTO: F - REPROVADO")
+                                  Escreval("------------------------------")
+                               FimSe
+                          FimSe
+                     FimSe
+                FimSe
+           FimSe
+      FimSe
+      
+
+
+Fimalgoritmo
