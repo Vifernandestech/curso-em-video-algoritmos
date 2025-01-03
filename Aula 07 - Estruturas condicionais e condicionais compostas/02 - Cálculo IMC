@@ -1,0 +1,38 @@
+Algoritmo "CalculoIMC"
+
+Var
+   Massa, Altura, IMC: real
+Inicio
+
+      Escreva("Massa (KG): ")
+      Leia(Massa)
+      Escreva("Altura (A): ")
+      Leia(Altura)
+      IMC <- Massa / (Altura ^2)
+      Escreval("IMC: ", IMC:5:2)
+      Se (IMC < 18.5)então
+         Escreval("Peso abaixo da média")
+      Senão
+           Se (IMC >= 18.5) e (IMC < 24.9) então
+              Escreval ("Você está no peso ideal")
+           Senão
+                Se (IMC >= 25) e (IMC < 29.9) então
+                   Escreval("Você está em sobrepeso")
+                Senão
+                     Se (IMC >= 30) e (IMC < 34.9) então
+                        Escreval ("Você está em fase de obesidade I")
+                     Senão
+                          Se (IMC >= 35) e (IMC < 39.9) então
+                             Escreval ("Você está em fase de obesidade II")
+                          Senão
+                               Se (IMC >= 40)então
+                                  Escreval("Você está em fase de obesidade III")
+                               FimSe
+                          FimSe
+                     FimSe
+                     
+                FimSe
+           FimSe
+      FimSe
+
+Fimalgoritmo
