@@ -20,29 +20,29 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 
 ### **Aulas Concluídas:**
 
-1. **[Aula 01 - Introdução a Algoritmos]**  
+1. **Aula 01 - Introdução a Algoritmos**  
    - Conceitos básicos sobre algoritmos e sua importância.
 
-2. **[Aula 02 - Primeiro Algoritmo]**  
+2. **Aula 02 - Primeiro Algoritmo**  
    - Primeiro exercício no Visualg: "Olá, Mundo!".
 
-3. **[Aula 03 - Comando de Entrada e Operadores]**  
+3. **Aula 03 - Comando de Entrada e Operadores**  
    - Uso de comandos de entrada como `leia` e operadores matemáticos.
 
-4. **[Aula 04 - Operadores Lógicos e Relacionais]**  
+4. **Aula 04 - Operadores Lógicos e Relacionais**  
    - Introdução a lógica booleana e condições simples.
 
-5. **[Aula 05 - Introdução ao Scratch]**  
+5. **Aula 05 - Introdução ao Scratch**  
    - Trabalhando com lógica de programação no Scratch para reforçar conceitos visuais.
 
-6. **[Aula 06 - Exercícios de Algoritmo Resolvidos]**  
+6. **Aula 06 - Exercícios de Algoritmo Resolvidos**  
    - Resolução prática de problemas para fixação dos conteúdos.
 
-7. **[Aula 07 - Estruturas Condicionais 1]**  
+7. **Aula 07 - Estruturas Condicionais 1**  
    - Trabalhando com o comando `se...então...senão` no Visualg.
 
-8. **[Aula 08 - Estruturas Condicionais 2]**  
-   - Explorando condições mais complexas e aninhadas.
+8. **Aula 08 - Estruturas Condicionais 2**  
+   - Explorando condições mais complexas, como condicional **aninhada** e condicional `escolha caso`
 
 ---
 
