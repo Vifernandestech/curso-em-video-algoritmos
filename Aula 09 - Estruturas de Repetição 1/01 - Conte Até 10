@@ -1,0 +1,14 @@
+Algoritmo "Conte Até 10"
+
+Var
+   Contador: inteiro
+Inicio
+      Contador <- 0
+      Enquanto (Contador <= 10) faça
+               Escreval (Contador)
+               Contador <- Contador + 1
+      FimEnquanto
+      Escreval ("Finalizei a contagem!")
+
+
+Fimalgoritmo
