@@ -1,0 +1,18 @@
+Algoritmo "Conte Até Valor"
+
+Var
+   Contador, valor: inteiro
+
+Inicio
+      Contador <- 0
+      Escreva ("Quer contar até qual valor?: ")
+      Leia(valor)
+      Enquanto (Contador <= valor) faça
+               Escreval (Contador)
+               Contador <- Contador + 1
+      FimEnquanto
+      Escreval ("Finalizei a contagem!")
+      
+
+
+Fimalgoritmo
