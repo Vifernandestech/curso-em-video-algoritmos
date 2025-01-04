@@ -1,0 +1,25 @@
+Algoritmo "Estrutura_Enquanto(While)"
+
+Var
+   Contador, Numero, Valor: Real
+
+
+Inicio
+      Contador <- 0
+      Escreva ("Até qual número você gostaria de contar?: ")
+      Leia(Valor)
+      Escreva ("Você quer somar de quanto em quanto? (Ex: Quero somar de 2 em 2...): ")
+      Leia(Numero)
+      Se (Valor >= 50) e (Numero >= 50) então
+         Escreval ("Este número é grande demais!!! Escolha um número menor.")
+      Senão
+           Enquanto (Contador <= Valor) faça
+                    Escreval (Contador)
+                    Contador <- Contador + Numero
+           FimEnquanto
+           Escreval ("Ufa... Demorou mas eu terminei de contar!")
+      FimSe
+
+
+
+Fimalgoritmo
