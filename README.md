@@ -16,7 +16,7 @@ O curso de Algoritmos aborda desde os conceitos básicos até a construção de 
 
 ## 📂 **Estrutura do Repositório**
 O repositório está organizado em pastas para cada aula concluída, contendo os exercícios e atividades relacionadas.
-Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. Por isso estão reunídos os primeiros algorítmos na mesma pasta (Aulas 01 á 06) 
+Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. Por isso estão reunídos os primeiros algorítmos na mesma pasta (Aulas 01 à 06) 
 
 ### **Aulas Concluídas:**
 
