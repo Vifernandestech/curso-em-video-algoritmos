@@ -1,0 +1,25 @@
+Algoritmo "SomadorNúmeros"
+
+Var
+   Contador, Soma, Numero, Maior: Inteiro
+
+
+Inicio
+      Contador <- 1
+      Soma <- 0
+      Enquanto (Contador <= 5) faça
+               Escreva ("Digite o", Contador, "°. valor: ")
+               Leia(Numero)
+               Soma <- Soma + Numero
+               Contador <- Contador + 1
+//Essa estrutura condicional permite avaliar qual número é maior
+//Do que o anterior, e salvá-lo na variável "Maior".
+      Se (Numero > Maior) então
+         Maior <- Numero
+      FimSe
+      FimEnquanto
+      Escreval("A soma de todos os números é,", soma)
+      Escreval("O maior número de todos os inseridos é,", Maior)
+
+
+Fimalgoritmo
