@@ -43,6 +43,9 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 
 8. **Aula 08 - Estruturas Condicionais 2**  
    - Explorando condições mais complexas, como condicional **aninhada** e condicional `escolha caso`
+     
+9. **Aula 09 - Estruturas de Repetição 1**  
+   - Explorando estruturas de repetição simples utilizando comandos como `Enquanto`, `Faça`, `FimEnquanto`. 
 
 ---
 
@@ -53,9 +56,9 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 📈 **Progresso**
-- **Aulas concluídas:** 8/16 (56%)
+- **Aulas concluídas:** 9/16 (56.25%)
 - **Atividades práticas realizadas:** Exercícios resolvidos estão disponíveis em suas respectivas pastas.
-- **Próximos passos:** A próxima aula abordará **Estruturas de Repetição 1**.
+- **Próximos passos:** A próxima aula abordará **Estruturas de Repetição 2**.
 
 ---
 
