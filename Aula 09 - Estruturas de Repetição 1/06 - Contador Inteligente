@@ -1,0 +1,25 @@
+Algoritmo "Contador Inteligente"
+
+Var
+   Comeco, Final, Contador, Quantidade_soma: Inteiro
+
+Inicio
+      Escreval ("------------------------")
+      Escreval ("--CONTADOR INTELIGENTE--")
+      Escreval ("------------------------")
+      Escreval ("Inicio: ")
+      Leia (Comeco)
+      Escreval ("Fim: ")
+      Leia (Final)
+      Escreval ("Você quer somar de quanto em quanto?")
+      Leia (Quantidade_soma)
+      Escreval ("------------")
+      Escreval (" CONTANDO...")
+      Escreval ("------------")
+      Enquanto (Comeco <= Final) faça
+               Escreva ("...", Comeco)
+               Comeco <- Comeco + Quantidade_soma
+      FimEnquanto
+
+            
+Fimalgoritmo
