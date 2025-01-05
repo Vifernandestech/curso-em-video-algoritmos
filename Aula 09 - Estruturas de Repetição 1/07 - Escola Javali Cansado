@@ -1,0 +1,33 @@
+Algoritmo "Escola Javali Cansado"
+
+Var
+   Alunos_Turma, Turma: inteiro
+   Nome1, Melhor_aluno: Caractere
+   Nota1, Maior_nota: real
+
+
+Inicio
+      Escreval ("---------------------")
+      Escreval ("Escola Javalí Cansado")
+      Escreval ("---------------------")
+      Escreval ("Quantos alunos a turma tem?: ")
+      Leia (Alunos_Turma)
+      Turma <- 1
+      Enquanto (Turma <= Alunos_Turma) faça
+               Escreval ("--------------")
+               Escreval ("ALUNO ", Turma)
+               Escreval ("--------------")
+               Escreva ("Nome do aluno: ")
+               Leia (Nome1)
+               Escreva ("Nota de ",nome1,": ")
+               Leia (Nota1)
+               Se (Nota1 > Maior_nota) entao
+                  Maior_nota <- Nota1
+                  Melhor_aluno <- Nome1
+               FimSe
+               Escreval ("--------------")
+               Turma <- (Turma + 1)
+      FimEnquanto
+      Escreval ("O melhor aproveitamento da turma foi de ", Melhor_aluno, " com a nota:", Maior_nota)
+      
+Fimalgoritmo
