@@ -1,0 +1,15 @@
+Algoritmo "Tabuada"
+
+Var
+   Contagem, Numero, Resposta: Inteiro
+Inicio
+      Contagem <- 1
+      Escreva ("Quer ver a tabuada de qual número?: ")
+      Leia (Numero)
+      Repita
+            Resposta <- Numero * Contagem
+            Escreval (Numero, " X", Contagem, " =", Resposta)
+            Contagem <- Contagem + 1
+      Até (Contagem > 10)
+
+Fimalgoritmo
