@@ -42,7 +42,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
    - Trabalhando com o comando `se...então...senão` no Visualg.
 
 8. **Aula 08 - Estruturas Condicionais 2**  
-   - Explorando condições mais complexas, como condicional **aninhada** e condicional `Escolha...caso...FimEscolha`
+   - Explorando condições mais complexas, como condicional **aninhada** e condicional `Escolha...caso...FimEscolha`.
      
 9. **Aula 09 - Estruturas de Repetição 1**  
    - Explorando estruturas de repetição simples utilizando comandos como `Enquanto`, `Faça`, `FimEnquanto`.
