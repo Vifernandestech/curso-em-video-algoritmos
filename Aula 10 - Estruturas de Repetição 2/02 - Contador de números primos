@@ -1,0 +1,24 @@
+Algoritmo "Contador_De_Números_Primos"
+
+Var
+   Contagem, ContagemDiv, Numero: Inteiro
+
+Inicio
+      Contagem <- 1
+      ContagemDiv <- 0
+      Escreva ("Digite um número: ")
+      Leia (Numero)
+      Repita
+            Se (Numero % Contagem = 0) então
+               ContagemDiv <- ContagemDiv + 1
+            FimSe
+            Contagem <- Contagem + 1
+      Até (Contagem > Numero)
+      Se (ContagemDiv > 2) então
+         Escreval ("O valor", Numero, " não é primo.")
+      Senão
+           Escreval ("O valor", Numero, " é primo.")
+      FimSe
+      
+
+Fimalgoritmo
