@@ -1,0 +1,18 @@
+Algoritmo "Fatorial"
+
+Var
+   Numero, Contagem, Fatorial: inteiro
+
+
+Inicio
+      Escreva ("Digite um número: ")
+      Leia (Numero)
+      Contagem <- Numero
+      Fatorial <- 1
+      Repita
+            Fatorial <- Fatorial * Contagem
+            Contagem <- Contagem - 1
+      Até (Contagem < 1)
+      Escreva ("O valor do fatorial de", numero, " é igual a", Fatorial)
+
+Fimalgoritmo
