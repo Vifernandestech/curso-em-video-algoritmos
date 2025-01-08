@@ -1,0 +1,22 @@
+Algoritmo "Total_Numeros_Negativos"
+
+Var
+Contagem, TotalN, Numero, Quantidade_numeros: Inteiro
+
+Inicio
+      Contagem <- 1
+      TotalN <- 0
+      Escreva ("Quantos números você gostaria de comparar?: ")
+      Leia (Quantidade_numeros)
+      Repita
+            Escreva ("Digite um número: ")
+            Leia (Numero)
+            Se (Numero < 0 ) então
+               TotalN <- TotalN + 1
+            FimSe
+            Contagem <- Contagem + 1
+      Até (Contagem > Quantidade_numeros)
+      Escreval ("Foram digitados", TotalN, " números negativos.")
+
+
+Fimalgoritmo
