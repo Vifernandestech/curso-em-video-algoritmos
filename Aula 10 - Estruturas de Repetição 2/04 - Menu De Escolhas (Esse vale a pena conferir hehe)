@@ -1,0 +1,35 @@
+Algoritmo "Menu_De_Escolhas"
+
+Var
+   Resposta, Contador: inteiro
+
+
+Inicio
+      Escreval ("=====================")
+      Escreval ("|       MENU        |")
+      Escreval ("=====================")
+      Escreval ("|   [1] de 1 a 10   |")
+      Escreval ("|   [2] de 10 a 1   |")
+      Escreval ("|   [3] SAIR        |")
+      Leia (Resposta)
+      Escolha Resposta
+              Caso 1
+              Contador <- 1
+                       Enquanto (Contador <= 10) faça
+                       Escreva ("...", Contador)
+                       Contador <- Contador + 1
+                       FimEnquanto
+              Caso 2
+              Contador <- 10
+                       Enquanto (Contador >= 1) faça
+                       Escreva ("...", Contador)
+                       Contador <- Contador - 1
+                       FimEnquanto
+              Caso 3
+                   Escreva ("Finalizando a execução do aplicativo...")
+                       
+      FimEscolha
+              
+      
+
+Fimalgoritmo
