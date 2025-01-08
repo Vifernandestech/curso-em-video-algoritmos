@@ -1,0 +1,38 @@
+Algoritmo "Seletor_De_Pessoas"
+
+Var
+   Sexo, Resposta: Caractere
+   Idade, Cor_cabelo, TotalHomens, TotalMulheres: Inteiro
+
+Inicio
+      Repita
+            Escreval ("======================")
+            Escreval ("  SELETOR DE PESSOAS  ")
+            Escreval ("======================")
+            Escreval ("Qual o sexo? [M/F]: ")
+            Leia (Sexo)
+            Escreval ("Qual a idade?: ")
+            Leia (Idade)
+            Escreval ("Qual a cor do cabelo?: ")
+            Escreval ("-----------------------")
+            Escreval ("[1] PRETO")
+            Escreval ("[2] CASTANHO")
+            Escreval ("[3] LOIRO")
+            Escreval ("[4] RUIVO")
+            Leia (Cor_cabelo)
+            Escreval ("Você quer continuar? [S/N]")
+            Leia (Resposta)
+            LimpaTela
+            Se (Sexo = "M") e (Idade >= 18) e (Cor_cabelo = 2) então
+               TotalHomens <- TotalHomens + 1
+            FimSe
+            Se (Sexo = "F") e (Idade >= 25) e (Idade <= 30) e (Cor_cabelo = 3) então
+               TotalMulheres <- TotalMulheres + 1
+            FimSe
+      Até (Resposta = "N") OU (Resposta = "n")
+      Escreval ("Total de homens com mais de 18 anos e cabelos castanhos: ", TotalHomens)
+      Escreval ("Total de mulheres entre 25 e 30 anos e cabelos loiros: ", TotalMulheres)
+
+      
+
+Fimalgoritmo
