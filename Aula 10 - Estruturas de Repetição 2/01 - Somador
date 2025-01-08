@@ -1,0 +1,19 @@
+Algoritmo "Somador"
+
+Var
+   Soma, Contador, Numero, Numeros_soma: Inteiro
+
+Inicio
+      Soma <- 0
+      Contador <- 1
+      Escreval ("Quantos números você quer somar?: ")
+      Leia (Numeros_soma)
+      Enquanto (Contador <= Numeros_soma) faça
+               Escreva ("Digite o ", Contador, "° número: ")
+               Leia (Numero)
+               Soma <- Soma + Numero
+               Contador <- Contador + 1
+      FimEnquanto
+      Escreval ("A soma dos números é: ",Soma)
+
+Fimalgoritmo
