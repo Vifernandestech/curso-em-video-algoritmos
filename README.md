@@ -59,7 +59,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 📈 **Progresso**
-- **Aulas concluídas:** 9/16 (56.25%)
+- **Aulas concluídas:** 10/16 (60.00%)
 - **Atividades práticas realizadas:** Exercícios resolvidos estão disponíveis em suas respectivas pastas.
 - **Próximos passos:** A próxima aula abordará **Estruturas de Repetição 2**.
 
