@@ -1,0 +1,23 @@
+Algoritmo "Somador 2"
+
+Var
+Soma, Contador, Valor: Inteiro
+Resposta: Caractere
+
+
+Inicio
+      Soma <- 0
+      Contador <- 1
+      Repita
+            Escreval ("Digite o ", Contador, "° valor: ")
+            Leia (Valor)
+            Soma <- Soma + Valor
+            Escreva ("Você quer continuar? [S/N]: ")
+            Leia (Resposta)
+            Contador <- Contador + 1
+      Até (Resposta = "N") ou (Resposta = "Não") ou (Resposta = "não") ou (Resposta = "NÃO") ou (Resposta =
+      Escreval ("A soma de todos os valores digitados é: ", Soma)
+      
+
+
+Fimalgoritmo
