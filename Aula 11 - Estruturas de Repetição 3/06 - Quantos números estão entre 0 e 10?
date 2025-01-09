@@ -1,0 +1,23 @@
+Algoritmo "Quantos Números estão entre 0 e 10?"
+
+Var
+   Limite, Numero, Contagem, SomaNumeros: Inteiro
+   Total0e10: Inteiro
+
+Inicio
+      Total0e10 <- 0
+      Escreva ("Quantos números você gostaria de analisar?: ")
+      Leia (Limite)
+      Para Contagem <- 1 até Limite passo 1 faça
+           Escreva ("Digite o ", contagem,"° número: ")
+           Leia (Numero)
+           Se (Numero >= 0) e (Numero <= 10) então
+              Total0e10 <- Total0e10 + 1
+              SomaNumeros <- SomaNumeros + Numero
+           FimSe
+      FimPara
+      Escreval ("O total de números entre 0 e 10 digitados é:", Total0e10)
+      Escreval ("A soma entre todos os números digitados (entre 0 e 10) é:", SomaNumeros)
+
+
+Fimalgoritmo
