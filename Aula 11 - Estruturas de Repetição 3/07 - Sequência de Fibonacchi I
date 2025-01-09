@@ -1,0 +1,19 @@
+Algoritmo "Sequência de Fibonacchi"
+
+Var
+   Primeiro, Segundo, Soma_numeros, Contagem: inteiro
+
+Inicio
+      Primeiro <- 0
+      Escreval (Primeiro)
+      Segundo <- 1
+      Escreval (Segundo)
+      Para Contagem <- 3 até 15 passo 1 faça
+           Soma_numeros <- Primeiro + Segundo
+           Escreval (Soma_numeros)
+           Primeiro <- Segundo
+           Segundo <- Soma_numeros
+      FimPara
+      Escreval("Esta é a sequência de Fibonacchi contendo apenas os 15 primeiros números.")
+
+Fimalgoritmo
