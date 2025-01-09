@@ -1,0 +1,13 @@
+Algoritmo "ContaAté10"
+
+Var
+
+   Contagem: Inteiro
+
+Inicio
+      Para Contagem <- 0 até 10 passo 1 faça
+           Escreva(Contagem, "...")
+      FimPara
+
+
+Fimalgoritmo
