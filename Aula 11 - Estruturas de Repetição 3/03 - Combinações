@@ -1,0 +1,15 @@
+Algoritmo "Combinações"
+
+Var
+
+Contador1, Contador2: Inteiro
+
+Inicio
+      Para Contador1 <- 1 até 3 passo 1 faça
+           Para Contador2 <- 1 até 3 faça
+                Escreval (Contador1, Contador2)
+           FimPara
+      FimPara
+
+
+Fimalgoritmo
