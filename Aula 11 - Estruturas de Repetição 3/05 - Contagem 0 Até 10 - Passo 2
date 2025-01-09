@@ -1,0 +1,12 @@
+Algoritmo "Contagem0até10Passo2"
+
+Var
+
+Contagem: Inteiro
+
+Inicio
+      Para Contagem <- 0 até 10 passo 2 faça
+           Escreva (Contagem, "...")
+      FimPara
+
+Fimalgoritmo
