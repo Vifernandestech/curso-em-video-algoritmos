@@ -1,0 +1,21 @@
+Algoritmo "Analisador 0 até 10 e Somador de números Impares"
+
+Var
+   Total0e10, Soma_impares, Contagem, Valor: Inteiro
+Inicio
+      Total0e10 <- 0
+      Soma_impares <- 0
+      Para Contagem <- 1 até 6 faça
+           Escreva ("Digite um valor: ")
+           Leia (Valor)
+           Se (Valor >= 0) e (Valor <= 10) então
+              Total0e10 <- Total0e10 + 1
+              Se (Valor%2 = 1) então
+              Soma_impares <- Soma_Impares + Valor
+              FimSe
+           FimSe
+      FimPara
+      Escreval("A quantidade de números entre 0 e 10 é de:", Total0e10)
+      Escreval("O valor da soma dos números impares é:", Soma_impares)
+
+Fimalgoritmo
