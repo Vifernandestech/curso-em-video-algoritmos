@@ -1,0 +1,22 @@
+Algoritmo "Sequência de Fibonacchi II"
+
+Var
+   Primeiro, Segundo, Limite, Contagem, Soma_numeros: Inteiro
+
+
+Inicio
+      Primeiro <- 0
+      Segundo <- 1
+      Escreva ("Quantas vezes você quer executar?: ")
+      Leia (Limite)
+      Escreva (Primeiro)
+      Escreva (Segundo)
+      Para Contagem <- 0 até limite faça
+           Soma_numeros <- Primeiro + Segundo
+           Escreva (Soma_numeros)
+           Primeiro <- Segundo
+           Segundo <- Soma_numeros
+      FimPara
+
+
+Fimalgoritmo
