@@ -1,0 +1,34 @@
+Algoritmo "Analisador de Dados"
+
+Var
+   Contagem, Numero, Soma_numeros, Valores_divisiveis, Numeros_nulos, Soma_pares, Numeros_negativos: Inteiro
+   Media_valores: Real
+
+
+Inicio
+      Para Contagem <- 1 até 5 faça
+           Escreval("Digite o", Contagem, "° número: ")
+           Leia (Numero)
+           Soma_numeros <- Soma_numeros + Numero
+           Media_valores <- (Soma_numeros / 5)
+                         Se (Numero%5 = 0) então
+                            Valores_divisiveis <- Valores_divisiveis + 1
+                         FimSe
+                         Se (Numero = 0) então
+                            Numeros_nulos <- Numeros_nulos + 1
+                         FimSe
+                         Se (Numero < 0) então
+                            Numeros_negativos <- Numeros_negativos + 1
+                         FimSe
+                         Se (Numero%2 = 0) então
+                            Soma_pares <- Soma_pares + Numero
+                         FimSe
+      FimPara
+      Escreval("A soma de todos os números digitados é: ", Soma_numeros)
+      Escreval("A média de todos os valores digitados é: ", Media_valores)
+      Escreval("Os total de valores que são divisiveis por 5 são: ", Valores_divisiveis)
+      Escreval("O total de números nulos é: ", Numeros_nulos)
+      Escreval("O total de números negativos é: ", Numeros_negativos)
+      Escreval("A soma apenas dos números PARES é: ", Soma_pares)
+
+Fimalgoritmo
