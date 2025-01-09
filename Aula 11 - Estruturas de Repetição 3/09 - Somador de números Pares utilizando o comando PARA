@@ -1,0 +1,17 @@
+Algoritmo "Somador Numeros Pares"
+
+Var
+
+   Numero, Contador, Soma_numeros: Inteiro
+
+Inicio
+      Escreva ("Digite um número: ")
+      Leia (Numero)
+      Para Contador <- 0 até Numero passo 2 faça
+           Escreval (Contador, "...")
+           Soma_numeros <- Soma_numeros + Contador
+
+      FimPara
+      Escreva ("A soma dos números pares é:",Soma_numeros)
+
+Fimalgoritmo
