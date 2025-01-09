@@ -42,13 +42,16 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
    - Trabalhando com o comando `se...então...senão` no Visualg.
 
 8. **Aula 08 - Estruturas Condicionais 2**  
-   - Explorando condições mais complexas, como condicional **aninhada** e condicional `Escolha...caso...FimEscolha`.
+   - Explorando condições mais complexas, como condicional **aninhada** e condicional `Escolha...Caso...FimEscolha`.
      
 9. **Aula 09 - Estruturas de Repetição 1**  
-   - Explorando estruturas de repetição simples utilizando comandos como `Enquanto`, `Faça`, `FimEnquanto`.
+   - Explorando estruturas de repetição simples utilizando comandos como `Enquanto...Faça...FimEnquanto`.
      
 10. **Aula 10 - Estruturas de Repetição 2**  
-   - Explorando estruturas de repetição simples utilizando comandos como `Repita...Até`.  
+   - Explorando estruturas de repetição simples utilizando comandos como `Repita...Até`. 
+
+11 **Aula 11 - Estruturas de Repetição 3**  
+   - Explorando estruturas de repetição simples utilizando comandos como `Para...Até...Passo...FimPara`.  
 
 ---
 
@@ -59,7 +62,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 📈 **Progresso**
-- **Aulas concluídas:** 10/16 (60.00%)
+- **Aulas concluídas:** 11/16 (68.75%)
 - **Atividades práticas realizadas:** Exercícios resolvidos estão disponíveis em suas respectivas pastas.
 - **Próximos passos:** A próxima aula abordará **Estruturas de Repetição 2**.
 
