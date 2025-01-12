@@ -1,0 +1,35 @@
+Algoritmo "Detector de Pesado"
+
+Var
+   I: Inteiro
+   Nome, MAISPESADO: Caractere
+   MAIOR, Peso: Real
+Procedimento DetectorPesado()
+Inicio
+      Escreval ("-----------------------------------")
+      Escreval (" D E T E C T O R  D E  P E S A D O ")
+      Escreval ("Maior peso até agora", MAIOR, "KG.")
+      Escreval ("-----------------------------------")
+FimProcedimento
+Inicio
+      LimpaTela
+      DetectorPesado()
+      Para I <- 1 até 5 passo 1 faça
+           Escreva ("Digite seu nome: ")
+           Leia (Nome)
+           Escreva ("Digite o peso de ", Nome, ":")
+           Leia (Peso)
+           Se (Peso > MAIOR) então
+              MAIOR <- PESO
+              MAISPESADO <- Nome
+           FimSe
+           LimpaTela
+      DetectorPesado()
+      FimPara
+      LimpaTela
+      DetectorPesado()
+      Escreval ("A pessoa mais pesada foi ", MAISPESADO, " com", MAIOR, "KG.")
+      Escreval ("-----------------------------------------------------------")
+
+
+Fimalgoritmo
