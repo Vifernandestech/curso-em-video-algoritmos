@@ -1,0 +1,22 @@
+Algoritmo "FazSomaProcedimento"
+
+Var
+   X, Y: Inteiro
+Procedimento Soma (A, B: Inteiro)
+Var
+   Valor: Inteiro
+Inicio
+      Escreval("Recebi o valor ", A)
+      Escreval("Recebi o valor ", B)
+      Escreval("A soma dos dois números A + B é de: ", A+B)
+      Valor <- A + B
+      Escreval ("Este é o valor total armazenado em uma nova variável: ", Valor)
+      
+FimProcedimento
+Inicio
+
+      X <- 5
+      Y <- 3
+      Soma (X, Y)
+      
+Fimalgoritmo
