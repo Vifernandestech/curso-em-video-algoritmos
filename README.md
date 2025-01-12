@@ -50,10 +50,10 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 10. **Aula 10 - Estruturas de Repetição 2**  
    - Explorando estruturas de repetição simples utilizando comandos como `Repita...Até`. 
 
-11 **Aula 11 - Estruturas de Repetição 3**  
+11. **Aula 11 - Estruturas de Repetição 3**  
    - Explorando estruturas de repetição simples utilizando comandos como `Para...Até...Passo...FimPara`.
      
-11 **Aula 12 - Procedimentos**  
+12. **Aula 12 - Procedimentos**  
    - Introdução ao Procedimento, utilizando comandos como `Procedimento...Var...Início...FimProcedimento`. 
    - Explorando passagem de parâmetros por **VALOR** e por **REFERÊNCIA**.
    - Aprendizado sobre "O que é Escopo de variável?" (Variáveis globais e locais).   
