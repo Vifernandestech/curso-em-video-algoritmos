@@ -18,5 +18,7 @@ Inicio
       X <- 5
       Y <- 3
       Soma (X, Y)
+//Caso colocado um comando Escreva(X, y) neste local, os valores de saída serão 5, 3. 
+//Isso ocorre pois os parâmetros aqui foram passados pelo valor e não por referência.
       
 Fimalgoritmo
