@@ -1,0 +1,26 @@
+Algoritmo "Fibonacchi Procedimento"
+
+Var
+   PRIMEIRO, SEGUNDO, I: Inteiro
+Procedimento ProximoFibonacchi (VAR FIRST, SECOND: Inteiro)
+Var
+   THIRD: Inteiro
+Inicio
+      THIRD <- FIRST + SECOND
+      Escreval (THIRD)
+      FIRST <- SECOND
+      SECOND <- THIRD
+      
+
+FimProcedimento
+Inicio
+      PRIMEIRO <- 0
+      Escreval (PRIMEIRO)
+      SEGUNDO <- 1
+      Escreval (SEGUNDO)
+      Para I <- 3 ATÉ 15 PASSO 1 FAÇA
+           ProximoFibonacchi(PRIMEIRO, SEGUNDO)
+      FimPara
+
+
+Fimalgoritmo
