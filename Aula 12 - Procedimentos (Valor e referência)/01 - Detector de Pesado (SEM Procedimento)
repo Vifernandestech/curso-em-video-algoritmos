@@ -1,0 +1,37 @@
+Algoritmo "Detector de Pesado"
+
+Var
+   I: Inteiro
+   Nome, MAISPESADO: Caractere
+   MAIOR, Peso: Real
+
+Inicio
+      LimpaTela
+      Escreval ("----------------------------------")
+      Escreval ("  DETECTOR DE PESADO  ")
+      Escreval ("Maior peso até agora", MAIOR, "KG.")
+      Escreval ("----------------------------------")
+      Para I <- 1 até 5 passo 1 faça
+           Escreva ("Digite seu nome: ")
+           Leia (Nome)
+           Escreva ("Digite o peso de ", Nome, ":")
+           Leia (Peso)
+           Se (Peso > MAIOR) então
+              MAIOR <- PESO
+              MAISPESADO <- Nome
+           FimSe
+           LimpaTela
+      Escreval ("----------------------------------")
+      Escreval ("  DETECTOR DE PESADO  ")
+      Escreval ("Maior peso até agora", MAIOR, "KG.")
+      Escreval ("----------------------------------")
+      FimPara
+      LimpaTela
+      Escreval ("----------------------------------")
+      Escreval ("  DETECTOR DE PESADO  ")
+      Escreval ("Maior peso até agora", MAIOR, "KG.")
+      Escreval ("A pessoa mais pesada foi ", MAISPESADO, " com", MAIOR, "KG.")
+      Escreval ("----------------------------------")
+      
+
+Fimalgoritmo
