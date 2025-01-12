@@ -1,0 +1,19 @@
+Algoritmo "Par Ou Impar Procedimento"
+
+Var
+   Numero: Inteiro
+
+Procedimento ParOuImpar(Valor:Inteiro)
+Inicio
+      Se (Valor%2 = 0) então
+         Escreval ("Este número é PAR!")
+      Senão
+           Escreval ("Este número é IMPAR!")
+      FimSe
+FimProcedimento
+Inicio
+      Escreval ("Digite um número: ")
+      Leia (Numero)
+      ParOuImpar(Numero)
+
+Fimalgoritmo
