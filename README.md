@@ -56,7 +56,11 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 12. **Aula 12 - Procedimentos**  
    - Introdução ao Procedimento, utilizando comandos como `Procedimento...Var...Início...FimProcedimento`. 
    - Explorando passagem de parâmetros por **VALOR** e por **REFERÊNCIA**.
-   - Aprendizado sobre "O que é Escopo de variável?" (Variáveis globais e locais).   
+   - Aprendizado sobre "O que é Escopo de variável?" (Variáveis globais e locais).
+
+13. **Aula 13 - Funções**  
+   - Introdução as funções e a como utilizá-las. Utilizando comandos como `Função...Inicio...FimFunção`.
+   - Explorando funções nativas do VisuAlg, como `Compr(), Copia(), Maiusc(), Minusc(), Asc(), Carac(), Pos()`
 
 ---
 
@@ -67,9 +71,8 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 📈 **Progresso**
-- **Aulas concluídas:** 12/16 (75.00%)
+- **Aulas concluídas:** 13/16 (81.25%)
 - **Atividades práticas realizadas:** Exercícios resolvidos estão disponíveis em suas respectivas pastas.
-- **Próximos passos:** A próxima aula abordará **Estruturas de Repetição 2**.
 
 ---
 
