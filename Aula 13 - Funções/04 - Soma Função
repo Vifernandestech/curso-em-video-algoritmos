@@ -1,0 +1,28 @@
+Algoritmo "SomaFunção"
+
+Var
+   Valor1, Valor2, Numeros, Contador, S: Inteiro
+Função Soma(Numero1, Numero2: Inteiro) : Inteiro
+Inicio
+      Retorne Numero1 + Numero2
+
+FimFunção
+Inicio
+
+      Escreva("Quantos números deseja somar?: ")
+      Leia(Numeros)
+      Escreval("O resultado se dará da soma de 2 em 2 números, até completar a quantidade de números da sua escolha.")
+      Contador <- 1
+      Enquanto (Contador <= Numeros) faça
+         Escreva("Digite o", Contador, "° valor: ")
+         Leia(Valor1)
+         Contador <- Contador + 1
+         Escreva("Digite o" ,Contador, "° valor: ")
+         Leia(Valor2)
+         Contador <- Contador + 1
+         S <- Soma(Valor1, Valor2)
+         Escreval("A soma dos números digitados é: ", S)
+      FimEnquanto
+
+
+Fimalgoritmo
