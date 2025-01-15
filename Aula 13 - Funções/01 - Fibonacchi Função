@@ -1,0 +1,29 @@
+Algoritmo "Fibonacchi Função"
+
+Var
+   I, PRIMEIRO, SEGUNDO, PROXIMOFI: INTEIRO
+   
+Função ProximoFibonacchi(VAR FIRST, SECOND: INTEIRO):INTEIRO
+var
+   TERCEIRO: INTEIRO
+Inicio
+      TERCEIRO <- FIRST + SECOND
+      FIRST <- SECOND
+      SECOND <- TERCEIRO
+      RETORNE TERCEIRO
+FimFunção
+
+
+Inicio
+
+      PRIMEIRO <- 0
+      Escreval(PRIMEIRO)
+      SEGUNDO <- 1
+      Escreval(SEGUNDO)
+      Para I <- 3 Até 10 passo 1 faça
+           PROXIMOFI <- ProximoFibonacchi(PRIMEIRO, SEGUNDO)
+           Escreval (PROXIMOFI)
+      FimPara
+      
+
+Fimalgoritmo
