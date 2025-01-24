@@ -1,0 +1,29 @@
+Algoritmo "Começa COM C"
+
+Var
+
+   TotC, C: Inteiro
+   Nome: Vetor[1..10] de Caractere
+   SoC: Vetor[1..10] de Caractere
+   
+
+Inicio
+      TotC <- 0
+      Para C <- 1 até 10 faça
+           Escreva("Digite seu primeiro nome: ")
+           Leia(Nome[C])
+           Se(Copia(Maiusc(Nome[C]), 1, 1) = "C") então
+                                  TotC <- TotC + 1
+                                  SoC[TotC] <- Nome[C]
+           FimSe
+      FimPara
+      
+      LimpaTela
+      
+      Escreval("LISTAGEM FINAL:")
+      Para C <- 1 até TotC faça
+           Escreval(SoC[C])
+      FimPara
+
+
+Fimalgoritmo
