@@ -4,7 +4,7 @@ Var
 
    TotC, C: Inteiro
    Nome: Vetor[1..10] de Caractere
-   SoC: Vetor[1..10] de Caractere
+   SoC: Vetor[1..10] de Caractere 
    
 
 Inicio
