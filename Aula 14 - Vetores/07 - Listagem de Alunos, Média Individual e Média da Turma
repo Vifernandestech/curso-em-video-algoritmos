@@ -1,0 +1,34 @@
+Algoritmo "Listagem de Alunos, Média Individual e Média da Turma"
+
+Var
+   I: Inteiro
+   Nome: Vetor[1..4] de Caractere
+   Nota1: Vetor[1..4] de Real
+   Nota2: Vetor[1..4] de Real
+   Media: Vetor[1..4] de Real
+   SomaMedias, MediaFinal: Real
+   
+Inicio
+      Para I <- 1 até 4 faça
+           Escreval("ALUNO", I)
+           Escreva ("Nome: ")
+           Leia(Nome[I])
+           Escreval("Digite a primeira nota: ")
+           Leia(Nota1[I])
+           Escreval("Digite a segunda nota: ")
+           Leia(Nota2[I])
+           Media[I] <- (Nota1[I] + Nota2[I])/2
+           SomaMedias <- SomaMedias + Media[I]
+
+      FimPara
+      
+      MediaFinal <- (SomaMedias/4)
+      Limpatela
+      Escreval("LISTAGEM DE ALUNOS")
+      Escreval("------------------")
+      Para i <- 1 ATÉ 4 FAÇA
+           Escreval(Nome[I]:15, Media[I])
+      FimPara
+      Escreval("Valor da média final da turma foi", MediaFinal)
+
+Fimalgoritmo
