@@ -1,0 +1,48 @@
+Algoritmo "Reserva_Cinema"
+
+Var
+   Fileira: Caractere // Nome da fileira (B)
+   R: Caractere // Resposta para continuar ou parar
+   Cadeiras: Vetor[1..10] de Caractere // Lugares da fileira
+   I, Acento: Inteiro // Controle do laço e escolha do lugar
+
+Procedimento MostrarFileira()
+Inicio
+   Fileira <- "B"
+
+   Para I <- 1 até 10 faça
+      Se (Cadeiras[I] = "") entao
+         Escreva("[", Fileira, I, "]") // Lugar disponível
+      Senão
+         Escreva("[---]") // Lugar ocupado
+      FimSe
+   FimPara
+   Escreval() // Pula linha para organizar
+FimProcedimento
+
+Inicio
+   // Inicializa os lugares como vazios ("")
+   Para I <- 1 até 10 faça
+      Cadeiras[I] <- ""
+   FimPara
+
+   // Loop principal de reserva
+   Repita
+      LimpaTela
+      MostrarFileira()
+      Escreval("Qual acento você deseja reservar? (B1 a B10): B")
+      Leia(Acento)
+
+      Se (Cadeiras[Acento] = "") entao
+         Cadeiras[Acento] <- "X" // Marca o lugar como reservado
+         Escreval("Cadeira B", Acento, " RESERVADA com sucesso!")
+      Senão
+         Escreval("ERRO: Lugar já está ocupado!")
+      FimSe
+
+      Escreval("Deseja reservar mais um acento? [S/N]: ")
+      Leia(R)
+   Até (R = "N") ou (R = "n")
+
+   Escreval("Encerrando o programa... Obrigado!")
+Fimalgoritmo
