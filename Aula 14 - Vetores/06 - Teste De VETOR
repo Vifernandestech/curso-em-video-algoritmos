@@ -1,0 +1,19 @@
+Algoritmo "TesteVetor"
+
+Var
+   V: Vetor[1..6] de inteiro
+   C: Inteiro
+
+
+Inicio
+      Para C <- 1 até 6 faça
+           Escreva("Digite o", C,"° valor: ")
+           Leia(V[C])
+      FimPara
+      
+      Para C <- 1 até 6 faça
+           Escreva("[", V[C], "]")
+      FimPara
+
+
+Fimalgoritmo
