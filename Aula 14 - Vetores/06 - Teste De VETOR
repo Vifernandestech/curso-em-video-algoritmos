@@ -1,6 +1,6 @@
 Algoritmo "TesteVetor"
 
-Var
+Var 
    V: Vetor[1..6] de inteiro
    C: Inteiro
 
