@@ -1,0 +1,28 @@
+Algoritmo "TorneioDeFutebol"
+
+Var
+   Time: Vetor[1..3] de caractere
+   Contagem, Contador: Inteiro
+
+
+Inicio
+      Escreval("------------------------------------------")
+      Escreval("  °°°°°   CAMPEONATO DE FUTEBOL    °°°°°  ")
+      Escreval("------------------------------------------")
+      Para Contador <- 1 até 3 faça
+           Escreval("Digite o nome do", Contador, "° time: ")
+           Leia(Time[Contador])
+      Fimpara
+      LimpaTela
+      Escreval("------------------------------------------")
+      Escreval("            TABELA DE PARTIDAS            ")
+      Escreval("------------------------------------------")
+      Para Contagem <- 1 até 3 faça
+           Para Contador <- 1 até 3 faça
+           Se (Contagem <> Contador) então
+                Escreval(Time[Contagem], " [ ] X [ ] ", Time[Contador])
+           FimSe
+           FimPara
+      FimPara
+
+Fimalgoritmo
