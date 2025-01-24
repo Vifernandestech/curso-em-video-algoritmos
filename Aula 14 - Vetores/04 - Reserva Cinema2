@@ -1,0 +1,58 @@
+Algoritmo "Reserva_Cinema2"
+
+Var
+   Fileira, R: Caractere
+   I: Inteiro
+   Cadeiras: Vetor[1..10] de Caractere
+   Acento: Inteiro
+
+Procedimento MostrarFileira()
+Inicio
+      Fileira <- "B"
+      Escreval("ACENTOS DISPONÍVEIS NA FILEIRA [B]:")
+      Para I <- 1 até 10 faça
+           Se (Cadeiras[I] = "") entao
+              Escreva("[", Fileira, I, "]")
+           Senão
+                Escreva("[---]")
+           FimSe
+      FimPara
+      Escreval()
+           
+FimProcedimento
+
+Inicio
+   Para I <- 1 até 10 faça
+        Cadeiras[I] <- ""
+   FimPara
+   
+   Repita
+         LimpaTela
+         MostrarFileira()
+   
+         Escreva("Digite o número do acento que deseja reservar: B")
+              Leia(Acento)
+         Se (Cadeiras[Acento] = "") então
+            Escreval("Reserva da cadeira B", Acento," efetuada com sucesso.")
+            Cadeiras[Acento] <- "X"
+         Senão
+              Escreval("Acento já reservado! Escolha outra posição.")
+
+         FimSe
+         Escreva("Continuar a reservar?[S/N]: ")
+         Leia(R)
+   Até (R = "N") ou (R = "n")
+   
+   ESCREVAL()
+   Escreval("Estes são os acentos disponíveis e reservados atualizados:")
+   Para I <- 1 até 10 faça
+           Se (Cadeiras[I] = "") entao
+              Escreva("[", Fileira, I, "]")
+           Senão
+                Escreva("[---]")
+           FimSe
+      FimPara
+
+
+
+Fimalgoritmo
