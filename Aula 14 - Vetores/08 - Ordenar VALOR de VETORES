@@ -1,0 +1,30 @@
+Algoritmo "OrdenarValor"
+
+Var
+
+   I, J, X: Inteiro
+   Valor: Vetor[1..4] de Inteiro
+   
+
+Inicio
+      Para I <- 1 até 4 faça
+           Escreva("Digire um valor: ")
+           Leia(Valor[I])
+      FimPara
+
+      Para I <- 1 até 3 faça
+           Para J <- I + 1 até 4 faça
+           Se (Valor[I] > Valor[J]) então
+              X <- Valor[I]
+              Valor[I] <- Valor[J]
+              Valor[J] <- X
+           FimSe
+           FimPARA
+      FimPara
+      
+      Para I <- 1 até 4 faça
+           Escreval("[", Valor[I], "]")
+      FimPara
+           
+
+Fimalgoritmo
