@@ -62,7 +62,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
    - Introdução as funções e a como utilizá-las. Utilizando comandos como `Função...Inicio...FimFunção`.
    - Explorando funções nativas do VisuAlg, como `Compr(), Copia(), Maiusc(), Minusc(), Asc(), Carac(), Pos()`
      
-13. **Aula 14 - Vetores**  
+14. **Aula 14 - Vetores**  
    - Introdução aos vetores e como declarar, armazenar, transferir e reordenar valores dentro deles e entre eles.
    - Exemplo: `Vetor: Vetor[1..10] de Inteiro`
 
