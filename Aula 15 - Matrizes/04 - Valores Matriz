@@ -8,7 +8,7 @@ Var
 Inicio
 
       SomaDiagonal <- 0
-      ProdutoLinha2 <- 1
+      ProdutoLinha2 <- 1 
       Para L <- 1 até 4 faça
            Para C <- 1 até 4 faça
                 Escreva("Digite o valor da posição [", L, ",", C, "]: ")
