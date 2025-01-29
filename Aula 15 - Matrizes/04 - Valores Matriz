@@ -1,0 +1,47 @@
+Algoritmo "Valores Matriz"
+
+Var
+
+   M: Vetor[1..4, 1..4] de Inteiro
+   L, C, SomaDiagonal, ProdutoLinha2, Maior3Coluna: Inteiro
+   
+Inicio
+
+      SomaDiagonal <- 0
+      ProdutoLinha2 <- 1
+      Para L <- 1 até 4 faça
+           Para C <- 1 até 4 faça
+                Escreva("Digite o valor da posição [", L, ",", C, "]: ")
+                Leia(M[L,C])
+                    Se (L = C) então
+                       SomaDiagonal <- SomaDiagonal + M[L,C]
+                    FimSe
+           FimPara
+      FimPara
+      
+      
+      Para C <- 1 até 4 faça
+           ProdutoLinha2 <- ProdutoLinha2 * M[2,C]
+      FimPara
+      
+      Para C <- 1 até 4 faça
+           Se (M[L,3] > Maior3Coluna) então
+              Maior3Coluna <- M[L,3]
+           FimSe
+      FimPara
+      
+      Para L <- 1 até 4 faça
+           Para C <- 1 até 4 faça
+                Escreva(M[L, C]: 5)
+           FimPara
+           Escreval()
+      FimPara
+      
+      
+      Escreval()
+      Escreval("A soma dos valores da diagonal principal é: ", SomaDiagonal)
+      Escreval("O produto dos valores da segunda linha é: ", ProdutoLinha2)
+      Escreval("O maior valor da terceira coluna é: ", Maior3Coluna)
+           
+
+Fimalgoritmo
