@@ -1,0 +1,133 @@
+Algoritmo "Dissecando Matrizes"
+//Algoritmo que exibe matriz 4x4
+//Lê valores, monta a matriz com os valores que o usuário inseriu
+//Exibir um menu de escolha (opções):
+         // MOSTRAR MATRIZ
+         // DIAGONAL PRINCIPAL
+         // TRIÂNGULO SUPERIOR
+         // TRIÂNGULO INFERIOR
+         // SAIR
+//Ler a opção que o usuário escolher e exibir esta opção.
+Var
+
+   Matri: vetor[1..4, 1..4] de inteiro
+   L, C, T: Inteiro
+   Resposta: Inteiro
+   Resp: Caractere
+   
+Procedimento MontarMatriz()
+Inicio
+      Para L <- 1 até 4 passo 1 faça
+           Para C <- 1 até 4 passo 1 faça
+                Escreva("Digite um número para a posição[", L, ",",C , "]: ")
+                Leia(Matri[L, C])
+           FimPara
+      FimPara
+      Escreval()
+      LimpaTela
+FimProcedimento
+
+Procedimento MenuDeOpcoes()
+Inicio
+     Escreval("M E N U  D E  O P Ç Õ E S")
+     Escreval("-------------------------")
+     Escreval("-------------------------")
+     Escreval("[1] - Mostrar a MATRIZ")
+     Escreval("[2] - Diagonal Principal")
+     Escreval("[3] - Triângulo Superior")
+     Escreval("[4] - Triângulo Inferior")
+     Escreval("[5] - SAIR")
+     Escreva("Selecione uma das opções numéricas acima: ")
+     Leia(Resposta)
+     Escreval()
+FimProcedimento
+
+Procedimento ExibirMatriz4x4()
+Inicio
+     Para L <- 1 até 4 passo 1 faça
+         Para C <- 1 até 4 passo 1 faça
+              Escreva(Matri[L,C]:4)
+         FimPara
+         Escreval()
+     FimPara
+FimProcedimento
+
+Procedimento ExibirDiagonalPrincipal()
+Inicio
+      Para L <-1 até 4 passo 1 faça
+           Para C <- 1 até 4 passo 1 faça
+                Se (L = C) então
+                   Escreva(Matri[L,C]:4)
+                Senão
+                     Escreva("    ")
+                FimSE
+           FimPara
+           Escreval()
+      FimPara
+FimProcedimento
+
+Procedimento ExibirTrianguloSuperior()
+Inicio
+      Para L <- 1 ate 3 faca
+           Escreva("    ")
+                Para C <- L+1 ate 4 faca
+                     Escreva(Matri[L,C]:4)
+                FimPara
+           EscrevaL()
+                Para T <- 1 ate l faca
+                     Escreva("    ")
+                FimPara
+      FimPara
+      EscrevaL()
+FimProcedimento
+
+Procedimento ExibirTrianguloInferior()
+Inicio
+      Para L <- 2 ate 4 faca
+           EscrevaL()
+               Para C <- 1 ate l-1 faca
+                    Escreva(Matri[L,C]:4)
+               FimPara
+      FimPara
+      EscrevaL()
+FimProcedimento
+
+Inicio
+//Montar matriz 4x4 com os dados escolhidos pelo usuário:
+     MontarMatriz()
+
+     Repita
+//Exibir um menu de escolha (opções):
+     MenuDeOpcoes()
+
+     
+//Ler a opção que o usuário escolher e exibir esta opção:
+      Escolha Resposta
+          Caso 1
+//Exibindo a matriz 4x4 com os dados inseridos:
+               ExibirMatriz4x4()
+          Caso 2
+//Exibindo a diagonal principal:
+               ExibirDiagonalPrincipal()
+          Caso 3
+//Exibindo triângulo superior:
+               ExibirTrianguloSuperior()
+          Caso 4
+//Exibindo triângulo inferior:
+               ExibirTrianguloInferior()
+          Caso 5
+//Finalize o programa:
+           Escreval("------------")
+           Escreval("ENCERRANDO...")
+           Escreval("------------")
+     FimEscolha
+     
+     Escreva("Deseja continuar? [S/N]: ")
+     Leia(Resp)
+     LimpaTela
+     Até (Resp = "N") ou (Resp = "Não")
+             
+                
+
+
+Fimalgoritmo
