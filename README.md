@@ -62,9 +62,13 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
    - Introdução as funções e a como utilizá-las. Utilizando comandos como `Função...Inicio...FimFunção`.
    - Explorando funções nativas do VisuAlg, como `Compr(), Copia(), Maiusc(), Minusc(), Asc(), Carac(), Pos()`
      
-14. **Aula 14 - Vetores**  
-   - Introdução aos vetores e como declarar, armazenar, transferir e reordenar valores dentro deles e entre eles.
-   - Exemplo: `Vetor: Vetor[1..10] de Inteiro`
+14. **Aula 14: Vetores**
+    - Dominando Arrays Unidimensionais
+    - Domínio de vetores (arrays unidimensionais): declaração, armazenamento, manipulação e reorganização de dados.
+
+15. **Aula 15: Matrizes**
+    - Explorando Arrays Multidimensionais
+    - Exploração de matrizes (arrays multidimensionais): declaração, armazenamento e transferência de dados em estruturas multidimensionais.
 
 ---
 
@@ -75,7 +79,7 @@ Aulas 01 a 06 são aulas introdutórias que apresentam os primeiros conceitos. P
 ---
 
 ## 📈 **Progresso**
-- **Aulas concluídas:** 14/16 (83.00%)
+- **Aulas concluídas:** 16/16 (100%)
 - **Atividades práticas realizadas:** Exercícios resolvidos estão disponíveis em suas respectivas pastas.
 
 ---
