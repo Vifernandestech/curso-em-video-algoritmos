@@ -1,4 +1,4 @@
-Algoritmo "Departamento_De_Trânsito"
+Algoritmo "Departamento_De_Trânsito" 
 
 Var
    Ano_atual, Ano_nascimento, Idade: Inteiro
