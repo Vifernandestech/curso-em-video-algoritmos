@@ -1,6 +1,6 @@
 # Curso de Algoritmos - Curso em Vídeo
 
-Bem-vindo ao meu repositório dedicado ao curso de **Algoritmos do Curso em Vídeo**, ministrado pelo Professor Guanabara. Aqui estão organizados todos os exercícios e projetos realizados ao longo do curso, com o objetivo de documentar minha evolução e compartilhar meu aprendizado com outros estudantes e interessados em programação e algoritmos.
+Bem-vindo ao meu repositório dedicado ao curso de **Algoritmos da plataforma Curso em Vídeo**, ministrado pelo Professor Gustavo Guanabara. Aqui estão organizados todos os exercícios e projetos realizados ao longo do curso, com o objetivo de documentar minha evolução e compartilhar meu aprendizado com outros estudantes e interessados em programação e algoritmos.
 
 ---
 
